@@ -1,0 +1,32 @@
+.hero-text {
+    padding-top: 140px;
+    padding-left: 40px;
+    width: 700px;
+}
+
+.business-support-text {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-left: auto;
+    text-align: justify;
+}
+
+.business-info-text {
+    padding-top: 20px;
+    width: 630px;
+    margin-left: 0px;
+    text-align: justify;
+}
+
+.button-parent {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.hero-button {
+    border-radius: 0;
+    background-color: black;
+    height: 70px;
+    width: 220px;
+    font-size: 0.9rem;
+}
