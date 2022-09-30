@@ -13,7 +13,7 @@ const Navbar = () => {
         elevation={0}
         className='navbar'
       >
-        <Toolbar>
+        <Toolbar disableGutters>
           <Typography variant='h6' noWrap component='div'>
             MUI
           </Typography>

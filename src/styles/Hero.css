@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .hero-text {
     padding-top: 140px;
-    padding-left: 40px;
+    padding-left: 100px;
     width: 700px;
+
 }
 
 .business-support-text {
@@ -12,7 +18,7 @@
 }
 
 .business-info-text {
-    padding-top: 20px;
+    padding-top: 25px;
     width: 630px;
     margin-left: 0px;
     text-align: justify;
@@ -29,4 +35,37 @@
     height: 70px;
     width: 220px;
     font-size: 0.9rem;
+}
+
+.image-list-item {
+    height: 50;
+    width: 50;
+}
+
+.image-list-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.netflix-logo {
+    width: 110px;
+    height: 110px;
+}
+
+.uber-logo {
+    width: 110px;
+    height: 110px;
+}
+
+.disney-logo {
+    width: 110px;
+    height: 110px;
+}
+
+.our-partners {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 30px;
 }

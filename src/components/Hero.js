@@ -1,7 +1,19 @@
-import { Button, Paper, Typography } from '@mui/material'
+import {
+  Button,
+  Divider,
+  ImageList,
+  ImageListItem,
+  ListItem,
+  Paper,
+  Stack,
+  Typography
+} from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import image from '../images/image-1.jpg'
+import netflixLogo from '../images/netflix-logo.png'
+import uberLogo from '../images/uber-logo.png'
+import disneyPlusLogo from '../images/disney-plus-logo.png'
 import '../styles/Hero.css'
 
 const Hero = () => {
@@ -26,6 +38,56 @@ const Hero = () => {
             Get Support
           </Button>
         </Typography>
+        <ImageList
+          sx={{
+            width: 610,
+            height: 200,
+            overflow: 'hidden',
+            objectFit: 'none'
+          }}
+          cols={4}
+          rowHeight={164}
+        >
+          <Typography className='our-partners'>
+            Our
+            <br /> Partners:{' '}
+          </Typography>
+          <ImageListItem
+            className='image-list-item'
+            direction='row'
+            style={{ width: '100%', height: '100%' }}
+          >
+            <Box className='netflix-logo'>
+              <img src={`${disneyPlusLogo}`} alt='netflix logo' />
+            </Box>
+          </ImageListItem>
+          <ImageListItem
+            className='image-list-item'
+            direction='row'
+            style={{ width: '100%', height: '100%' }}
+          >
+            <Box className='uber-logo'>
+              <img
+                style={{ width: '100%', height: '100%' }}
+                src={`${uberLogo}`}
+                alt='uber logo'
+              />
+            </Box>
+          </ImageListItem>
+          <ImageListItem
+            className='image-list-item'
+            direction='row'
+            style={{ width: '100%', height: '100%' }}
+          >
+            <Box className='disney-logo'>
+              <img
+                src={`${netflixLogo}`}
+                alt='Disney+ logo'
+                style={{ width: '100%', height: '100%' }}
+              />
+            </Box>
+          </ImageListItem>
+        </ImageList>
       </Box>
     </Paper>
   )
