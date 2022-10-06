@@ -18,7 +18,13 @@ import '../styles/Hero.css'
 
 const Hero = () => {
   return (
-    <Paper sx={{ backgroundImage: `url(${image})` }}>
+    <Paper
+      sx={{
+        backgroundImage: `url(${image})`,
+        marginRight: '50px',
+        marginLeft: '50px'
+      }}
+    >
       {' '}
       <Box className='hero-text'>
         <Typography variant='h3' className='business-support-text'>
@@ -41,7 +47,8 @@ const Hero = () => {
         <ImageList
           sx={{
             width: 610,
-            height: 200,
+            height: 150,
+            paddingTop: 5,
             overflow: 'hidden',
             objectFit: 'none'
           }}
