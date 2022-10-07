@@ -1,0 +1,17 @@
+.services-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.service-detail {
+    text-align: justify;
+}
+
+.service-icon {
+    background-color: coral;
+    color: white;
+    border-radius: 12px;
+}
